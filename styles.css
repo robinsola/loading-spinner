@@ -140,3 +140,24 @@
     transform: rotate(0) scale(1);
   }
 }
+
+.btn-div {
+  width: 400px;
+  height: 100px;
+  border: 2px solid black;
+  cursor: help;
+}
+
+.buttony {
+  transition-property: transform;
+  transition-duration: 0.3s;
+  width: 400px;
+  height: 100px;
+  background-color: green;
+  font-size: 2em;
+  color: white;
+}
+
+.btn-div:hover .buttony{
+  transform: rotateZ(360deg) translateX(550px);
+}
